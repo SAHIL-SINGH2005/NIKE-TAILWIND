@@ -1,6 +1,6 @@
 import Button from "../components/Button";
 import ShoeCard from "../components/ShoeCard"; 
-import { arrowRight } from "../assets/icons";
+import  arrow  from "../assets/images/arrow.png";
 import { statistics } from "../constants";
 import { bigShoe1 } from "../assets/images";
 import { useState } from "react";
@@ -24,13 +24,17 @@ const Hero = () => {
             The New Arrival
           </span>
           <br />
-          <span className='text-red-500 inline-block mt-3'>Nike</span> Shoes
+          <span className='text-red-500 inline-block mt-5'>Nike</span> Shoes
         </h1>
-        <p className='font-montserrat text-gray-500 text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
+        <p className='font-montserrat text-gray-600 text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
-        <Button label='Shop now' iconURL={arrowRight} />
+        
+        <div>
+        <Button label='Shop now'  />
+        <i class="fa-solid fa-arrow-right"></i>
+        </div>
 
         <div className="flex justify-starts items-start flex-wrap
         w-full mt-20 gap-16">

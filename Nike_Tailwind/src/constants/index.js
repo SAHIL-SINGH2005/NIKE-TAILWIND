@@ -75,7 +75,8 @@ export const reviews = [
         imgURL: customer1,
     customerName: 'CHXUTPAGLU JI',
         rating: -0.5,
-        feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        // feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
+        feedback: "JOOTE Gareeb Pehna Kare Ladle! Raja Aadmi CHAPPAL PEHNA KARE!! shitiest product ever they suck ass and i want to suck yours"
         
     },
     {
