@@ -1,6 +1,7 @@
 import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
+import  facebook  from "../assets/icons/facebook.svg";
 
 const Footer = () => {
   return (
@@ -62,6 +63,9 @@ const Footer = () => {
             height={20}
             className='rounded-full m-0'
           />
+          {/* <a href="https://www.facebook.com/nike/">
+          <img src={facebook} alt="facebook logo" className="bg-white"  />
+          </a> */}
           <p className="text-white">Copyright. All rights reserved.</p>
         </div>
         <p className='font-montserrat cursor-pointer'>Terms & Conditions</p>

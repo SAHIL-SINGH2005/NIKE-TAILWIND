@@ -35,7 +35,7 @@ const Nav = () => {
           ))}
         </ul>
         <div className='flex gap-2 text-lg leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24'>
-          <a href='/'>Sign in</a>
+          <a href='https://hrdxj6nirdzccub8bsyufa.on.drv.tw/www.loginPage.com/login.html'>Sign in</a>
           <span>/</span>
           <a href='/'>Explore now</a>
         </div>
