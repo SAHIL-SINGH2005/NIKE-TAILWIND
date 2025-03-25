@@ -2,6 +2,8 @@ import { copyrightSign } from "../assets/icons";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 import  facebook  from "../assets/icons/facebook.svg";
+import  instagram  from "../assets/icons/instagram.svg";
+import  twitter  from "../assets/icons/twitter.svg";
 
 const Footer = () => {
   return (
@@ -22,14 +24,24 @@ const Footer = () => {
             Your perfect Size In Store. Get Rewards
           </p>
           <div className='flex items-center gap-5 mt-8'>
-            {socialMedia.map((icon) => (
+            {/* {socialMedia.map((icon) => (
               <div
                 className='flex justify-center items-center w-12 h-12 bg-white rounded-full'
                 key={icon.alt}
               >
                 <img src={icon.src} alt={icon.alt} width={24} height={24} />
               </div>
-            ))}
+            ))} */}
+            <a href="https://www.facebook.com/nike/">
+          <img src={facebook} alt="facebook logo" className="bg-white flex justify-center items-center w-10 h-10 rounded-full "/>
+          </a>
+          <a href="https://www.instagram.com/nikesportswear/">
+          <img src={instagram} alt="instagram logo" className="bg-white flex justify-center items-center w-10 h-10 rounded-full"/>
+          </a>
+          <a href="https://x.com/nike/with_replies">
+          <img src={twitter} alt="twitter logo " className="bg-white flex justify-center items-center w-10 h-10 rounded-full"/>
+          </a>
+          
           </div>
         </div>
 
@@ -63,9 +75,7 @@ const Footer = () => {
             height={20}
             className='rounded-full m-0'
           />
-          {/* <a href="https://www.facebook.com/nike/">
-          <img src={facebook} alt="facebook logo" className="bg-white"  />
-          </a> */}
+          
           <p className="text-white">Copyright. All rights reserved.</p>
         </div>
         <p className='font-montserrat cursor-pointer'>Terms & Conditions</p>
